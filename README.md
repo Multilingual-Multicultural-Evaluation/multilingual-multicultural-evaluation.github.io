@@ -1,3 +1,3 @@
 # [multilingual-multicultural-evaluation.github.io](https://multilingual-multicultural-evaluation.github.io/)
 
-Website documentation TODO
+This is a website for the Multilingual Multicultural Evaluation Workshop at EACL 2025.

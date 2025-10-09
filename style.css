@@ -1,36 +1,20 @@
  * {
     font-family: "Open Sans";
  }
- 
- #sidebar {
-     margin: 0;
-     padding: 0;
-     width: 200px;
-     background-color: #f1f1f1;
-     position: fixed;
-     height: 100%;
-     overflow: auto;
+
+
+ /* set background colors to fit our theme */
+ h2 {
+    background-color: #e8c15c;
+    width: fit-content;
  }
 
- #content {
-     margin-left: 220px;
-     padding: 1px 16px;
-     height: 1000px;
+ a {
+    background-color: #70c867;
+    text-decoration: none;
+    color: black;
  }
 
- /* On screens that are less than 700px wide, make the sidebar into a topbar */
- @media screen and (max-width: 700px) {
-     #sidebar {
-         width: 100%;
-         height: auto;
-         position: relative;
-     }
-
-     #sidebar a {
-         float: left;
-     }
-
-     #content {
-         margin-left: 0;
-     }
+ .highlight {
+    background-color: #ee604f;
  }
