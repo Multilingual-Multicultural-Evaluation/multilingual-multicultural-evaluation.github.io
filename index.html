@@ -8,7 +8,7 @@
         rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 
-    <meta name="viewport" content="width=700px, initial-scale=1" />
+    <meta name="viewport" content="width=500px" />
 
 
     <style>
@@ -24,11 +24,9 @@
         }
 
         a {
-            background-color: #7c6;
+            font-weight: bold;
             text-decoration: none;
-            color: black;
-            padding-left: 2px;
-            padding-right: 2px;
+            color: #493;
         }
 
         .highlight {
@@ -40,7 +38,7 @@
         #organizers {
             text-align: center;
         }
-        
+
         #organizers span {
             display: inline-block;
             width: 185px;
@@ -55,16 +53,20 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+        p {
+            text-align: justify;
+        }
     </style>
 </head>
 
 <body style="padding: 0; margin: 0px;">
     <div id="content"
-        style="max-width: 1100px; min-width: 660px; margin-left: auto; margin-right: auto; background-color: #eee; padding: 20px; text-align: justify; padding-bottom: 50px; height: fit-content;">
+        style="max-width: 1100px; min-width: 450px; margin-left: auto; margin-right: auto; background-color: #eee; padding: 20px; padding-bottom: 50px; height: fit-content;">
 
         <!-- <marquee><span class="highlight">This website is under construction. The information here might not be 100% accurate.</span></marquee> -->
         <img src="assets/logo_paths.svg"
-            style="width: 650px; margin-bottom: 10px; margin-top: 50px; display: block; margin-left: auto; margin-right: auto;">
+            style="max-width: 650px; width: 100%; margin-bottom: 10px; margin-top: 50px; display: block; margin-left: auto; margin-right: auto;">
         <div style="text-align: center;">Workshop co-located with EACL 2026 in Morocco</div>
 
         <br>
@@ -75,13 +77,15 @@
 
         <h2>Introduction</h2>
 
-        Large language models are undeniably reshaping language technology.
-        Yet as models claim to "support X languages," the research community still lacks clear answers to core
-        questions, such as
-        <i>What does multilinguality really mean, and how should we evaluate it?</i>
-        Simple counts of supported languages or translated benchmarks surely aren't enough.
-        Multilingual evaluation today suffers from duplicated efforts, inconsistent practices, limited
-        comparability across works, and general poor understanding of theoretical and practical problems.
+        <p>
+            Large language models are undeniably reshaping language technology.
+            Yet as models claim to "support X languages," the research community still lacks clear answers to core
+            questions, such as
+            <i>What does multilinguality really mean, and how should we evaluate it?</i>
+            Simple counts of supported languages or translated benchmarks surely aren't enough.
+            Multilingual evaluation today suffers from duplicated efforts, inconsistent practices, limited
+            comparability across works, and general poor understanding of theoretical and practical problems.
+        </p>
 
         This workshop aims to bring the community together to address these challenges through three goals:
         <ul>
@@ -114,14 +118,19 @@
             <li>Other position, application-, or theory-focused contributions</li>
         </ul>
 
-        Submissions should be formatted according to the <a href="https://github.com/acl-org/acl-style-files">ACL style
-            guidelines</a> and should either be up to 4 or 8 pages (short and long papers, respectively), excluding
-        references and appendices.
-        Upon acceptance, an additional page will be granted for camera-ready versions.
-
-        Please submit your work through <a href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME">this OpenReview link</a> by <span class="highlight">December 19 2025</span>.
-        Submissions with an existing ARR meta-review by <span class="highlight">January 2 2026</span> are also elligible.
-        For their consideration, please submit through OpenReview and fill out the ARR-reviewed section.
+        <p>
+            Submissions should be formatted according to the <a href="https://github.com/acl-org/acl-style-files">ACL
+                style
+                guidelines</a> and should either be up to 4 or 8 pages (short and long papers, respectively), excluding
+            references and appendices.
+            Upon acceptance, an additional page will be granted for camera-ready versions.
+            Please submit your work through <a
+                href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME">this OpenReview link</a> by <span
+                class="highlight">December 19 2025</span>.
+            Submissions with an existing ARR meta-review by <span class="highlight">January 2 2026</span> are also
+            elligible.
+            For their consideration, please submit through OpenReview and fill out the ARR-reviewed section.
+        </p>
 
         <h2>Program</h2>
 
@@ -141,20 +150,32 @@
         <br><br>
 
         <div id="organizers">
-            <span><img src="assets/portraits/pinzhen.jpg"><a href="https://pinzhenchen.github.io/">Pinzhen Chen</a><br>University of Edinburgh</span>
-            <span><img src="assets/portraits/vilem.jpg"><a href="https://vilda.net/">Vilém Zouhar</a><br>ETH Zurich</span>
-            <span><img src="assets/portraits/hanxu.jpg"><a href="https://hanxuhu.github.io/">Hanxu Hu</a><br>University of Zurich</span>
-            <span><img src="assets/portraits/simran.jpg"><a href="https://simran-khanuja.github.io/">Simran Khanuja</a><br>CMU</span>
-            <span><img src="assets/portraits/wenhao.jpg"><a href="https://owennju.github.io/">Wenhao Zhu</a><br>ByteDance</span>
-            <span><img src="assets/portraits/barry.jpg"><a href="https://homepages.inf.ed.ac.uk/bhaddow/">Barry Haddow</a><br>University of Edinburgh</span>
-            <span><img src="assets/portraits/lexi.jpg"><a href="https://lexibirch.github.io/">Alexandra Birch</a><br>University of Edinburgh</span>
-            <span><img src="assets/portraits/alham.jpg"><a href="https://afaji.github.io/">Alham Fikri Aji</a><br>MBZUAI</span>
-            <span><img src="assets/portraits/rico.jpg"><a href="https://www.cl.uzh.ch/en/research-groups/texttechnologies/Team/Current-Members/sennrich.html">Rico Sennrich</a><br>University of Zurich</span>
-            <span><img src="assets/portraits/sara.jpg"><a href="https://www.sarahooker.me/">Sara Hooker</a><br>Cohere Labs</span>
+            <span><a href="https://pinzhenchen.github.io/"><img src="assets/portraits/pinzhen.jpg">Pinzhen
+                    Chen</a><br>University of Edinburgh</span>
+            <span><a href="https://vilda.net/"><img src="assets/portraits/vilem.jpg">Vilém Zouhar</a><br>ETH
+                Zurich</span>
+            <span><a href="https://hanxuhu.github.io/"><img src="assets/portraits/hanxu.jpg">Hanxu Hu</a><br>University
+                of Zurich</span>
+            <span><a href="https://simran-khanuja.github.io/"><img src="assets/portraits/simran.jpg">Simran
+                    Khanuja</a><br>CMU</span>
+            <span><a href="https://owennju.github.io/"><img src="assets/portraits/wenhao.jpg">Wenhao
+                    Zhu</a><br>ByteDance</span>
+            <span><a href="https://homepages.inf.ed.ac.uk/bhaddow/"><img src="assets/portraits/barry.jpg">Barry
+                    Haddow</a><br>University of Edinburgh</span>
+            <span><a href="https://lexibirch.github.io/"><img src="assets/portraits/lexi.jpg">Alexandra
+                    Birch</a><br>University of Edinburgh</span>
+            <span><a href="https://afaji.github.io/"><img src="assets/portraits/alham.jpg">Alham Fikri
+                    Aji</a><br>MBZUAI</span>
+            <span><a
+                    href="https://www.cl.uzh.ch/en/research-groups/texttechnologies/Team/Current-Members/sennrich.html"><img
+                        src="assets/portraits/rico.jpg">Rico Sennrich</a><br>University of Zurich</span>
+            <span><a href="https://www.sarahooker.me/"><img src="assets/portraits/sara.jpg">Sara Hooker</a><br>Adaptable
+                Intelligence</span>
         </div>
 
         <br>
-        Please reach out to <a href="mailto:mme-workshop@googlegroups.com">mme-workshop@googlegroups.com</a> with any questions or inquiries.
+        Please reach out to <a href="mailto:mme-workshop@googlegroups.com">mme-workshop@googlegroups.com</a> with any
+        questions or inquiries.
 
         This workshop follows ACL's
         <a href="https://www.aclweb.org/adminwiki/index.php?title=Anti-Harassment_Policy">Anti-Harassment Policy</a>.
