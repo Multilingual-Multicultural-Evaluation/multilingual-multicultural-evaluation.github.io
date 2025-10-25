@@ -51,11 +51,11 @@
             padding-right: 2px;
         }
 
-        #organizers {
+        #people {
             text-align: center;
         }
 
-        #organizers span {
+        #people span {
             display: inline-block;
             width: 185px;
             text-align: center;
@@ -63,7 +63,7 @@
             margin-bottom: 20px;
         }
 
-        #organizers span img {
+        #people span img {
             width: 150px;
             display: block;
             margin-left: auto;
@@ -73,6 +73,11 @@
         p {
             text-align: justify;
         }
+
+        p + ul {
+            margin-top: -10px;
+        }
+
     </style>
 </head>
 
@@ -83,67 +88,57 @@
         <!-- <marquee><span class="highlight">This website is under construction. The information here might not be 100% accurate.</span></marquee> -->
         <img src="assets/logo_paths.svg"
             style="max-width: 650px; width: 100%; margin-bottom: 10px; margin-top: 50px; display: block; margin-left: auto; margin-right: auto;">
-        <div style="text-align: center;">Workshop co-located with EACL 2026 in Morocco</div>
+        <div style="text-align: center;">Workshop co-located with EACL 2026, in Rabat, Morocco</div>
 
         <br>
         <br>
-        <br>
-        <br>
-
 
         <h2>Introduction</h2>
 
         <p>
             Large language models are undeniably reshaping language technology.
-            Yet as models claim to "support X languages," the research community still lacks clear answers to core
+            Yet as models are claimed to "support X languages", the research community still lacks clear answers to core
             questions, such as
             <i>What does multilinguality really mean, and how should we evaluate it?</i>
             Simple counts of supported languages or translated benchmarks surely aren't enough.
             Multilingual evaluation today suffers from duplicated efforts, inconsistent practices, limited
             comparability across works, and general poor understanding of theoretical and practical problems.
         </p>
-
-        This workshop aims to bring the community together to address these challenges through three goals:
+        <p>
+        Workshop on Multilingual and Multicultural Evaluation (MME) aims to bring the community together with three goals:
         <ul>
-            <li>Create a dedicated venue for multilingual evaluation, data, and methodology.</li>
+            <li>Create a dedicated venue for multilingual evaluation resources and methodology.</li>
             <li>Advance and standardize evaluation practices to improve accuracy, scalability, and fairness.</li>
             <li>Integrate cultural and social perspectives into multilingual evaluation.</li>
         </ul>
 
         LLMs in every language? Prove it. Showcase your work on rigorous, efficient, scalable, culture-aware
         multilingual benchmarking.
+        </p>
 
         <h2>Call for Papers</h2>
-
-        We welcome archival (published in ACL Anthology) and non-archival submissions resulting in poster presentations
-        for accepted papers.
-        The topics include but are not limited to:
-
-        <ul>
-            <li>Evaluation resources beyond English or Western-centric perspectives and materials</li>
-            <li>Annotation methodology and procedures</li>
-            <li>Evaluation protocols: ranking vs direct assessment, rubric-based vs reference-based vs reference-free,
-                prompt variations, etc</li>
-            <li>Complex tasks: multimodality, fairness, long I/O, tool using, code-switching, literary, etc;</li>
-            <li>Sociocultural and cognitive variation affecting the use and evaluation across languages;</li>
-            <li>Scalable evaluation of cultural and factual knowledge;</li>
-            <li>Efficient evaluation of a massive number of languages and tasks;</li>
-            <li>Metrics, LLM judges, and reward models;</li>
-            <li>Standardised reporting, and scientific comparison of multilingual performance;</li>
-            <li>AI-assisted evaluation: data, methods, metrics, and standards;</li>
-            <li>Other position, application-, or theory-focused contributions</li>
-        </ul>
-
         <p>
-            Submissions should be formatted according to the <a href="https://github.com/acl-org/acl-style-files">ACL
-                style
-                guidelines</a> and should be either up to 4 or 8 pages long (short and long papers, respectively), excluding
-            references and appendices. Please anonymize your submissions for double-blind review. Upon acceptance, an additional page will be granted for the camera-ready version.
-
-            Please submit your work through <a
-                href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME">this link</a> by <span
-                class="highlight">December 19 2025</span>. You can also commit your ARR (meta-)reviewed papers by <span class="highlight">January 2 2026</span> at <a href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME_ARR_Commitment">this link</a>.
-
+        We invite submissions on topics, including but are not limited to:
+        <ul>
+            <li>Evaluation <b>resources</b> beyond English or Western-centric perspectives and materials</li>
+            <li><b>Annotation</b> methodology and procedures</li>
+            <li>Evaluation <b>protocols</b>: ranking vs direct assessment, rubric-based vs reference-based vs reference-free,
+                prompt variations, etc</li>
+            <li><b>Complex and practical</b> tasks: multimodality, fairness, long I/O, tool using, code-switching, literary, etc</li>
+            <li><b>Sociocultural and cognitive</b> variation affecting the use and evaluation across languages</li>
+            <li><b>Scalable</b> evaluation of cultural and factual knowledge</li>
+            <li><b>Efficient</b> evaluation of a massive number of languages and tasks</li>
+            <li><b>Metrics</b>, LLM judges, and reward models</li>
+            <li><b>Standardization</b> in reporting and comparison of multilingual performance</li>
+            <li><b>AI-assisted</b> evaluation: data, methods, metrics, and standards</li>
+            <li>Other position, application, or theory contributions</li>
+        </ul>
+        </p>
+        <p>
+            We welcome both archival and non-archival papers, resulting in presentations at the workshop. In addition, archival papers will be published in ACL Anthology. An archival submission cannot be under review or accepted at another archival venue. ARR-reviewed papers can be directly committed.
+        </p>
+        <p>
+            Submissions should be up to either 4 or 8 pages long excluding references and appendices (short and long papers, respectively), formatted according to the <a href="https://github.com/acl-org/acl-style-files">ACL style guidelines</a>, and anonymized for double-blind review. Upon acceptance, an additional page will be granted for the camera-ready version. Please submit your work by <span class="highlight">December 19 2025</span> through <a href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME">this link</a>. ARR (meta-)reviewed papers can be committed by <span class="highlight">January 2 2026</span> using <a href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME_ARR_Commitment">this link</a>.
         </p>
 
         <h2>Key Dates</h2>
@@ -159,14 +154,19 @@
             <li>Workshop dates: March 28/29 2026 (TBD)</li>
         </ul>
 
+        <h2>Confirmed Speakers</h2>
+        <br>
+        <div id="people">
+            <span><a href="https://www.ruder.io"><img src="assets/portraits/sebastian.jpg">Sebastian Ruder</a><br>Meta</span>
+            <span><a href="https://cs.uwaterloo.ca/~fhs/"><img src="assets/portraits/freda.jpg">Freda Shi</a><br>University of Waterloo</span>
+            <span><a href="https://xu1998hz.github.io"><img src="assets/portraits/wenda.jpg">Wenda Xu</a><br>Google</span>
+        </div>
+
         <h2>Organization</h2>
-
-        The workshop organizers are:
-        <br><br>
-
-        <div id="organizers">
+        <br>
+        <div id="people">
             <span><a href="https://pinzhenchen.github.io/"><img src="assets/portraits/pinzhen.jpg">Pinzhen
-                    Chen</a><br>University of Edinburgh</span>
+                    Chen</a><br>Queen's University Belfast</span>
             <span><a href="https://vilda.net/"><img src="assets/portraits/vilem.jpg">Vilém Zouhar</a><br>ETH
                 Zurich</span>
             <span><a href="https://hanxuhu.github.io/"><img src="assets/portraits/hanxu.jpg">Hanxu Hu</a><br>University
@@ -177,7 +177,7 @@
                     Zhu</a><br>ByteDance</span>
             <span><a href="https://homepages.inf.ed.ac.uk/bhaddow/"><img src="assets/portraits/barry.jpg">Barry
                     Haddow</a><br>University of Edinburgh</span>
-            <span><a href="https://lexibirch.github.io/"><img src="assets/portraits/lexi.jpg">Alexandra
+            <span><a href="https://sites.google.com/view/alexandra-birch/home"><img src="assets/portraits/lexi.jpg">Alexandra
                     Birch</a><br>University of Edinburgh</span>
             <span><a href="https://afaji.github.io/"><img src="assets/portraits/alham.jpg">Alham Fikri
                     Aji</a><br>MBZUAI</span>
