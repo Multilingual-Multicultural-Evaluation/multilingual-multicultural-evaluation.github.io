@@ -10,23 +10,28 @@
 
     <meta name="viewport" content="width=500px" />
 
-    <meta name="description" content="LLMs in every language? Prove it. Showcase your work on rigorous, efficient, scalable, culture-aware multilingual benchmarking. ">
+    <meta name="description"
+        content="LLMs in every language? Prove it. Showcase your work on rigorous, efficient, scalable, culture-aware multilingual benchmarking. ">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://multilingual-multicultural-evaluation.github.io/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Multilingual Multicultural Evaluation Workshop">
-    <meta property="og:description" content="LLMs in every language? Prove it. Showcase your work on rigorous, efficient, scalable, culture-aware multilingual benchmarking. ">
-    <meta property="og:image" content="https://opengraph.b-cdn.net/production/images/4f8d91f8-7584-4bf4-9367-0318753fcd47.svg?token=n3p9GNfa1yOimbIinOoY4e9H7y355spiG69JYs0eh4w&height=45&width=45&expires=33296715259">
+    <meta property="og:description"
+        content="LLMs in every language? Prove it. Showcase your work on rigorous, efficient, scalable, culture-aware multilingual benchmarking. ">
+    <meta property="og:image"
+        content="https://opengraph.b-cdn.net/production/images/4f8d91f8-7584-4bf4-9367-0318753fcd47.svg?token=n3p9GNfa1yOimbIinOoY4e9H7y355spiG69JYs0eh4w&height=45&width=45&expires=33296715259">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="multilingual-multicultural-evaluation.github.io">
     <meta property="twitter:url" content="https://multilingual-multicultural-evaluation.github.io/">
     <meta name="twitter:title" content="Multilingual Multicultural Evaluation Workshop">
-    <meta name="twitter:description" content="LLMs in every language? Prove it. Showcase your work on rigorous, efficient, scalable, culture-aware multilingual benchmarking. ">
-    <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/4f8d91f8-7584-4bf4-9367-0318753fcd47.svg?token=n3p9GNfa1yOimbIinOoY4e9H7y355spiG69JYs0eh4w&height=45&width=45&expires=33296715259">
-    
+    <meta name="twitter:description"
+        content="LLMs in every language? Prove it. Showcase your work on rigorous, efficient, scalable, culture-aware multilingual benchmarking. ">
+    <meta name="twitter:image"
+        content="https://opengraph.b-cdn.net/production/images/4f8d91f8-7584-4bf4-9367-0318753fcd47.svg?token=n3p9GNfa1yOimbIinOoY4e9H7y355spiG69JYs0eh4w&height=45&width=45&expires=33296715259">
+
     <style>
         * {
             font-family: "Open Sans";
@@ -74,10 +79,13 @@
             text-align: justify;
         }
 
-        p + ul {
+        p+ul {
             margin-top: -10px;
         }
 
+        .paper_authors {
+            font-style: italic;
+        }
     </style>
 </head>
 
@@ -98,137 +106,301 @@
         <p>
             Large language models are undeniably reshaping language technology.
             Yet as models are claimed to "support X languages", the research community still lacks clear answers to core
-            questions, such as <i>What does multilinguality really mean, and how should we evaluate it?</i> Counting languages in training data or translating benchmarks likely isn't enough. Multilingual evaluation today suffers from duplicated efforts, inconsistent practices, limited comparability across works, and general poor understanding of theoretical and practical problems.
+            questions, such as <i>What does multilinguality really mean, and how should we evaluate it?</i> Counting
+            languages in training data or translating benchmarks likely isn't enough. Multilingual evaluation today
+            suffers from duplicated efforts, inconsistent practices, limited comparability across works, and general
+            poor understanding of theoretical and practical problems.
         </p>
         <p>
-            Workshop on Multilingual and Multicultural Evaluation (MME) aims to bring the community together with three goals:
-            <ul>
-                <li>Create a dedicated venue for multilingual evaluation resources and methodology.</li>
-                <li>Advance and standardize evaluation practices to improve accuracy, scalability, and fairness.</li>
-                <li>Integrate cultural and social perspectives into multilingual evaluation.</li>
-            </ul>
+            Workshop on Multilingual and Multicultural Evaluation (MME) aims to bring the community together with three
+            goals:
+        <ul>
+            <li>Create a dedicated venue for multilingual evaluation resources and methodology.</li>
+            <li>Advance and standardize evaluation practices to improve accuracy, scalability, and fairness.</li>
+            <li>Integrate cultural and social perspectives into multilingual evaluation.</li>
+        </ul>
 
-            LLMs in every language? Prove it. Showcase your work on rigorous, efficient, scalable, culture-aware
-            multilingual benchmarking.
+        LLMs in every language? Prove it. Showcase your work on rigorous, efficient, scalable, culture-aware
+        multilingual benchmarking.
         </p>
 
         <h2>Call for Papers</h2>
         <p>
             We invite submissions on topics, including, but not limited to:
-            <ul>
-                <li>Evaluation <b>resources</b> beyond English or Western-centric perspectives and materials</li>
-                <li><b>Annotation</b> methodology and procedures</li>
-                <li>Evaluation <b>protocols</b>: ranking vs direct assessment, rubric-based vs reference-based vs reference-free,
-                    prompt variations, etc</li>
-                <li><b>Complex and practical</b> tasks: multimodality, fairness, long I/O, tool using, code-switching, literary, etc</li>
-                <li><b>Sociocultural and cognitive</b> variation affecting the use and evaluation across languages</li>
-                <li><b>Scalable</b> evaluation of cultural and factual knowledge</li>
-                <li><b>Efficient</b> evaluation of a massive number of languages and tasks</li>
-                <li><b>Metrics</b>, LLM judges, and reward models</li>
-                <li><b>Standardization</b> in reporting and comparison of multilingual performance</li>
-                <li><b>AI-assisted</b> evaluation: data, methods, metrics, and standards</li>
-                <li>Other position, application, or theory contributions</li>
-            </ul>
+        <ul>
+            <li>Evaluation <b>resources</b> beyond English or Western-centric perspectives and materials</li>
+            <li><b>Annotation</b> methodology and procedures</li>
+            <li>Evaluation <b>protocols</b>: ranking vs direct assessment, rubric-based vs reference-based vs
+                reference-free,
+                prompt variations, etc</li>
+            <li><b>Complex and practical</b> tasks: multimodality, fairness, long I/O, tool using, code-switching,
+                literary, etc</li>
+            <li><b>Sociocultural and cognitive</b> variation affecting the use and evaluation across languages</li>
+            <li><b>Scalable</b> evaluation of cultural and factual knowledge</li>
+            <li><b>Efficient</b> evaluation of a massive number of languages and tasks</li>
+            <li><b>Metrics</b>, LLM judges, and reward models</li>
+            <li><b>Standardization</b> in reporting and comparison of multilingual performance</li>
+            <li><b>AI-assisted</b> evaluation: data, methods, metrics, and standards</li>
+            <li>Other position, application, or theory contributions</li>
+        </ul>
         </p>
         <p>
-            We welcome both archival and non-archival papers, resulting in presentations at the workshop. In addition, archival papers will be published in ACL Anthology. An archival submission cannot be under review or accepted at another archival venue. ARR-reviewed papers can be directly committed. 
+            We welcome both archival and non-archival papers, resulting in presentations at the workshop. In addition,
+            archival papers will be published in ACL Anthology. An archival submission cannot be under review or
+            accepted at another archival venue. ARR-reviewed papers can be directly committed.
         </p>
         <p>
-            All <b>archival</b> submissions must follow the <a target="_blank" href="https://github.com/acl-org/acl-style-files">ACL style guidelines</a> and be anonymized for double-blind review. Short papers may have up to 4 pages and long papers up to 8 pages, excluding references and appendices. Upon acceptance, one additional page will be allowed for the camera-ready version. <b>Non-archival</b> submissions have no formatting or anonymity requirements. 
+            All <b>archival</b> submissions must follow the <a target="_blank"
+                href="https://github.com/acl-org/acl-style-files">ACL style guidelines</a> and be anonymized for
+            double-blind review. Short papers may have up to 4 pages and long papers up to 8 pages, excluding references
+            and appendices. Upon acceptance, one additional page will be allowed for the camera-ready version.
+            <b>Non-archival</b> submissions have no formatting or anonymity requirements.
         </p>
         <p>
-            Please submit your work by <span class="highlight">December 19 2025</span> through <a target="_blank" href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME">this link</a>. ARR (meta-)reviewed papers can be committed by <span class="highlight">January 5 2026</span> using <a target="_blank" href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME_ARR_Commitment">this link</a>. 
+            Please submit your work by <span class="highlight">December 19 2025</span> through <a target="_blank"
+                href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME">this link</a>. ARR
+            (meta-)reviewed papers can be committed by <span class="highlight">January 5 2026</span> using <a
+                target="_blank"
+                href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME_ARR_Commitment">this link</a>.
         </p>
 
         <h2>Key Dates</h2>
         <p>
             All deadlines are 11:59PM UTC-12:00 ("Anywhere on Earth").
-            <ul>
-                <li>Direct submission deadline: December 19 2025, <a
-                    href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME">direct submission link</a></li>
-                <li>ARR-reviewed paper submission deadline: January 5 2026, <a target="_blank" href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME_ARR_Commitment">commitment link</a></li>
-                <li>Notification of acceptance: January 23 2026</li>
-                <li>Camera-ready deadline: February 3 2026</li>
-                <li>Workshop time: 14:00-17:30 March 28 2026</li>
-            </ul>
+        <ul>
+            <li>Direct submission deadline: December 19 2025, <a
+                    href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME">direct submission link</a>
+            </li>
+            <li>ARR-reviewed paper submission deadline: January 5 2026, <a target="_blank"
+                    href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME_ARR_Commitment">commitment
+                    link</a></li>
+            <li>Notification of acceptance: January 23 2026</li>
+            <li>Camera-ready deadline: February 3 2026</li>
+            <li>Workshop time: 14:00-17:30 March 28 2026</li>
+        </ul>
         </p>
 
         <h2>Speakers</h2>
         <br>
         <div id="people">
-            <span><a target="_blank" href="https://www.ruder.io"><img src="assets/portraits/sebastian.jpg">Sebastian Ruder</a><br>Meta</span>
-            <span><a target="_blank" href="https://cs.uwaterloo.ca/~fhs/"><img src="assets/portraits/freda.jpg">Freda Shi</a><br>University of Waterloo</span>
-            <span><a target="_blank" href="https://xu1998hz.github.io"><img src="assets/portraits/wenda.jpg">Wenda Xu</a><br>Google</span>
+            <span><a target="_blank" href="https://www.ruder.io"><img src="assets/portraits/sebastian.jpg">Sebastian
+                    Ruder</a><br>Meta</span>
+            <span><a target="_blank" href="https://cs.uwaterloo.ca/~fhs/"><img src="assets/portraits/freda.jpg">Freda
+                    Shi</a><br>University of Waterloo</span>
+            <span><a target="_blank" href="https://xu1998hz.github.io"><img src="assets/portraits/wenda.jpg">Wenda
+                    Xu</a><br>Google</span>
         </div>
+
+        <h2>Accepted Papers</h2>
+        <ul>
+            <li><span class="paper_title">LLMs as Span Annotators: A Comparative Study of LLMs and Humans</span>; <span
+                    class="paper_authors">Zdeněk Kasner, Vilém Zouhar, Patrícia Schmidtová, Ivan Kartáč, Kristýna
+                    Onderková, Ondrej Platek, Dimitra Gkatzia, Saad Mahamood, Ondrej Dusek, Simone Balloccu</span></li>
+            <li><span class="paper_title">On the Credibility of Evaluating LLMs using Survey Questions</span>; <span
+                    class="paper_authors">Jindřich Libovický</span></li>
+            <li><span class="paper_title">An improved Code-Switching Detection System for some Indic Languages</span>;
+                <span class="paper_authors">Karan Bhanushali, Fritz Hohl</span>
+            </li>
+            <li><span class="paper_title">Vinclat: Evaluating Reasoning, Cognition and Culture in One Game</span>; <span
+                    class="paper_authors">Marc Pàmies, Javier Aula-Blasco, Aitor Gonzalez-Agirre, Marta Villegas</span>
+            </li>
+            <li><span class="paper_title">Conceptual Cultural Index: A Metric for Cultural Specificity via Relative
+                    Generality</span>; <span class="paper_authors">Takumi Ohashi, Hitoshi Iyatomi</span></li>
+            <li><span class="paper_title">The Anthropology of Food: How NLP can Help us Unravel the Food cultures of the
+                    World</span>; <span class="paper_authors">Arij Riabi, Sougata Saha, Monojit Choudhury</span></li>
+            <li><span class="paper_title">LLM-as-a-qualitative-judge: automating error analysis in natural language
+                    generation</span>; <span class="paper_authors">Nadezhda Chirkova, Tunde Oluwaseyi Ajayi, Seth
+                    Aycock, Zain Muhammad Mujahid, Vladana Perlić, Ekaterina Borisova, Markarit Vartampetian</span></li>
+            <li><span class="paper_title">Cross-Lingual Stability of LLM Judges Under Controlled Generation: Evidence
+                    from Finno-Ugric Languages</span>; <span class="paper_authors">Isaac Chung, Linda Freienthal</span>
+            </li>
+            <li><span class="paper_title">Cross-lingual and cross-country approaches to argument component detection: a
+                    comparative study.</span>; <span class="paper_authors">Cecilia Graiff, Chloé Clavel, Benoît
+                    Sagot</span></li>
+            <li><span class="paper_title">UNSC-Bench: Evaluating LLM Diplomatic Role-Playing Through UN Security Council
+                    Vote Prediction</span>; <span class="paper_authors">Ayush Nangia, Aman Gokrani, Ruggero Marino
+                    Lazzaroni</span></li>
+            <li><span class="paper_title">Leveraging Wikidata for Geographically Informed Sociocultural Bias Dataset
+                    Creation: Application to Latin America</span>; <span class="paper_authors">Yannis Karmim, Renato
+                    Pino, Hernan Contreras, Hernan Lira, Sebastian Cifuentes, Simon Escoffier, Luis Martí, Djamé Seddah,
+                    Valentin Barriere</span></li>
+            <li><span class="paper_title">Whom to Trust? Analyzing the Divergence Between User Satisfaction and
+                    LLM-as-a-Judge in E-Commerce RAG Systems</span>; <span class="paper_authors">Arif Türkmen, Kaan Efe
+                    Keleş</span></li>
+            <li><span class="paper_title">Query-Following vs Context-Anchoring: How LLMs Handle Cross-Turn Language
+                    Switching</span>; <span class="paper_authors">Kyuhee Kim, Chengheng Li Chen, Anna Sotnikova</span>
+            </li>
+            <li><span class="paper_title">Generating Difficult-to-Translate Texts</span>; <span
+                    class="paper_authors">Vilém Zouhar, Wenda Xu, Parker Riley, Juraj Juraska, Mara Finkelstein, Markus
+                    Freitag, Daniel Deutsch</span></li>
+            <li><span class="paper_title">A Woman is More Culturally Knowledgeable than A Man?': The Effect of Personas
+                    on Cultural Norm Interpretation in LLMs</span>; <span class="paper_authors">Mahammed Kamruzzaman,
+                    Hieu Minh Nguyen, Nazmul Hassan, Gene Louis Kim</span></li>
+        </ul><br>Further, we welcome the non-archival presentation of the following works:
+        <ul>
+            <li><span class="paper_title">Ranking Entropy, Coverage Gap, and Support Set Index: Simple Signals for
+                    Multilingual Data Quality</span>; <span class="paper_authors">Bodhisatta Maiti, Debshree
+                    Chowdhury</span></li>
+            <li><span class="paper_title">MAKIEval: A Multilingual Automatic WiKidata-based Framework for Cultural
+                    Awareness Evaluation for LLMs</span>; <span class="paper_authors">Raoyuan Zhao, Beiduo Chen, Barbara
+                    Plank, Michael A. Hedderich</span></li>
+            <li><span class="paper_title">CLM-Bench: Benchmarking and Analyzing Cross-lingual Misalignment of LLMs in
+                    Knowledge Editing</span>; <span class="paper_authors">Yucheng Hu, Wei Zhou, Juesi Xiao</span></li>
+            <li><span class="paper_title">Pearmut: Human Evaluation of Translation Made Trivial</span>; <span
+                    class="paper_authors">Vilém Zouhar, Tom Kocmi</span></li>
+            <li><span class="paper_title">Do LLMs Truly Benefit from Longer Context in Automatic Post-Editing?</span>;
+                <span class="paper_authors">Ahrii Kim, Seong-heum Kim</span>
+            </li>
+            <li><span class="paper_title">Evaluating the Evaluator: Human–LLM Alignment in Multilingual Cultural
+                    Reasoning</span>; <span class="paper_authors">Shehenaz Hossain, Houda Bouamor, Haithem Afli</span>
+            </li>
+            <li><span class="paper_title">Multi-Agent Multimodal Models for Multicultural Text to Image
+                    Generation</span>; <span class="paper_authors">Parth Bhalerao, Mounika Yalamarty, Brian Trinh, Oana
+                    Ignat</span></li>
+            <li><span class="paper_title">MentorQA: Multi-Agent Multilingual Question Answering for Long-Form Mentorship
+                    Content</span>; <span class="paper_authors">Parth Bhalerao, Diola Dsouza, Ruiwen Guan, Oana
+                    Ignat</span></li>
+            <li><span class="paper_title">Cross-Cultural Meme Transcreation with Vision-Language Models</span>; <span
+                    class="paper_authors">Yuming Zhao, Peiyi Zhang, Oana Ignat</span></li>
+            <li><span class="paper_title">Robust Code-Switched Speech Recognition with Whisper: A Comparative Study of
+                    Full Fine-Tuning and LoRA on SEAME</span>; <span class="paper_authors">Ting Wang</span></li>
+            <li><span class="paper_title">WORLDVIEW: A Multilingual Benchmark Revealing U.S. Cultural Dominance,
+                    Stereotyping and Diversity Failures in Text-to-Image Models</span>; <span
+                    class="paper_authors">Aleksandra Urman, Elsa Lichtenegger, Salima Jaoua, Azza Bouleimen, Robin
+                    Forsberg, Corinna Hertweck, Desheng Hu, Stefania Ionescu, Kshitijaa Jaglan, Nicolò Pagan, Ancsa
+                    Hannak, Joachim Baumann</span></li>
+            <li><span class="paper_title">Beyond Character Matching: Proposing Psycholinguistically Informed Metrics for
+                    Chinese Radical Knowledge in LLMs</span>; <span class="paper_authors">Yufei Liu, Poorvi
+                    Acharya</span></li>
+            <li><span class="paper_title">Glints of Gold or Troubling Waters? Can a School of Merged Monolingual
+                    Goldfish Models Swim in Bilingual Seas?</span>; <span class="paper_authors">Suchir Salhan, Ej Zhou,
+                    Laura Barbenel, Aoife O’Driscoll, Lily Goulder, Lucas Resck, Catherine Arnett, Paula Buttery</span>
+            </li>
+            <li><span class="paper_title">Recovered in Translation: Efficient Pipeline for Automated Translation of
+                    Benchmarks and Datasets</span>; <span class="paper_authors">Hanna Yukhymenko, Anton Alexandrov,
+                    Martin Vechev</span></li>
+            <li><span class="paper_title">VietMix: A Naturally-Occurring Parallel Corpus and Augmentation Framework for
+                    Vietnamese-English Code-Mixed Machine Translation</span>; <span class="paper_authors">Hieu Tran,
+                    Phuong-Anh Nguyen-Le, Huy Nghiem, Quang-Nhan Nguyen, Wei Ai, Marine Carpuat</span></li>
+            <li><span class="paper_title">Benchmarking Temporal Reasoning and Alignment Across Chinese Dynasties</span>;
+                <span class="paper_authors">Zhenglin Wang, Jialong Wu, Pengfei LI, Yong Jiang, Deyu Zhou</span>
+            </li>
+            <li><span class="paper_title">SwissGov-RSD: A Human-annotated, Cross-lingual, Document-level Benchmark for
+                    Recognition of Semantic Difference at the Token-level</span>; <span class="paper_authors">Michelle
+                    Wastl, Jannis Vamvas, Rico Sennrich</span></li>
+            <li><span class="paper_title">When Flores Bloomz Wrong: Cross-Direction Contamination in Machine Translation
+                    Evaluation</span>; <span class="paper_authors">David Tan, Pinzhen Chen, Josef van Genabith, Koel
+                    Dutta Chowdhury</span></li>
+            <li><span class="paper_title">How Important is ‘Perfect’ English for Machine Translation Prompts?</span>;
+                <span class="paper_authors">Patrícia Schmidtová, Niyati Bafna, Seth Aycock, Gianluca Vico, Wiktor
+                    Kamzela, Kathy Hämmerl, Vilém Zouhar</span>
+            </li>
+            <li><span class="paper_title">RoD-TAL: A Benchmark for Answering Questions in Romanian Driving License
+                    Exams</span>; <span class="paper_authors">Andrei Vlad Man, Răzvan-Alexandru Smădu, Cristian-George
+                    Craciun, Dumitru-Clementin Cercel, Florin Pop, Mihaela-Claudia Cercel</span></li>
+            <li><span class="paper_title">Do Diacritics Matter? Evaluating the Impact of Arabic Diacritics on
+                    Tokenization and LLM Benchmarks</span>; <span class="paper_authors">Go Inoue, Bashar Alhafni, Nizar
+                    Habash, Timothy Baldwin</span></li>
+            <li><span class="paper_title">Form and Meaning in Intrinsic Multilingual Evaluations</span>; <span
+                    class="paper_authors">Wessel Poelman, Miryam de Lhoneux</span></li>
+            <li><span class="paper_title">FiNERweb: Datasets and Artifacts for Scalable Multilingual Named Entity
+                    Recognition</span>; <span class="paper_authors">Jonas Golde, Patrick Haller, Alan Akbik</span></li>
+            <li><span class="paper_title">Measuring Linguistic Competence of LLMs on Indigenous Languages of the
+                    Americas</span>; <span class="paper_authors">Justin Vasselli, Arturo MP, Frederikus Hudi, Haruki
+                    Sakajo, Taro Watanabe</span></li>
+            <li><span class="paper_title">BabyBabelLM: A Multilingual Benchmark of Developmentally Plausible Training
+                    Data</span>; <span class="paper_authors">Jaap Jumelet, Abdellah Fourtassi, Akari Haga, Bastian
+                    Bunzeck, Bhargav Shandilya, Diana Galvan-Sosa, Faiz Ghifari Haznitrama, Francesca Padovani, Francois
+                    Meyer, Hai Hu, Julen Etxaniz, Laurent Prevot, Linyang He, María Grandury, Mila Marcheva, Negar
+                    Foroutan, Nikitas Theodoropoulos, Pouya Sadeghi, Siyuan Song, Suchir Salhan, Susana Zhou, Yurii
+                    Paniv, Ziyin Zhang, Arianna Bisazza, Alex Warstadt, Leshem Choshen</span></li>
+            <li><span class="paper_title">MAPS: A Multilingual Benchmark for Agent Performance and Security</span>;
+                <span class="paper_authors">Omer Hofman, Jonathan Brokman, Oren Rachmil, Shamik Bose, Vikas Pahuja,
+                    Toshiya Shimizu, Trisha Starostina, Kelly Marchisio, Seraphina Goldfarb-Tarrant, Roman
+                    Vainshtein</span>
+            </li>
+            <li><span class="paper_title">LLMs and Cultural Values: The Impact of Prompt Language and Explicit Cultural
+                    Framing</span>; <span class="paper_authors">Bram Bulté, Ayla Rigouts Terryn</span></li>
+            <li><span class="paper_title">Cetvel: A Unified Benchmark for Evaluating Language Understanding, Generation
+                    and Cultural Capacity of LLMs for Turkish</span>; <span class="paper_authors">Yakup Abrek Er, Ilker
+                    Kesen, Gözde Gül Şahin, Aykut Erdem</span></li>
+        </ul>
 
         <h2>Organizers</h2>
         <br>
         <div id="people">
-            <span><a target="_blank" href="https://pinzhenchen.github.io/"><img src="assets/portraits/pinzhen.jpg">Pinzhen
+            <span><a target="_blank" href="https://pinzhenchen.github.io/"><img
+                        src="assets/portraits/pinzhen.jpg">Pinzhen
                     Chen</a><br>Queen's University Belfast</span>
-            <span><a target="_blank" href="https://vilda.net/"><img src="assets/portraits/vilem.jpg">Vilém Zouhar</a><br>ETH
+            <span><a target="_blank" href="https://vilda.net/"><img src="assets/portraits/vilem.jpg">Vilém
+                    Zouhar</a><br>ETH
                 Zurich</span>
-            <span><a target="_blank" href="https://hanxuhu.github.io/"><img src="assets/portraits/hanxu.jpg">Hanxu Hu</a><br>University
+            <span><a target="_blank" href="https://hanxuhu.github.io/"><img src="assets/portraits/hanxu.jpg">Hanxu
+                    Hu</a><br>University
                 of Zurich</span>
-            <span><a target="_blank" href="https://simran-khanuja.github.io/"><img src="assets/portraits/simran.jpg">Simran
+            <span><a target="_blank" href="https://simran-khanuja.github.io/"><img
+                        src="assets/portraits/simran.jpg">Simran
                     Khanuja</a><br>CMU</span>
             <span><a target="_blank" href="https://owennju.github.io/"><img src="assets/portraits/wenhao.jpg">Wenhao
                     Zhu</a><br>ByteDance</span>
-            <span><a target="_blank" href="https://homepages.inf.ed.ac.uk/bhaddow/"><img src="assets/portraits/barry.jpg">Barry
+            <span><a target="_blank" href="https://homepages.inf.ed.ac.uk/bhaddow/"><img
+                        src="assets/portraits/barry.jpg">Barry
                     Haddow</a><br>University of Edinburgh</span>
-            <span><a target="_blank" href="https://sites.google.com/view/alexandra-birch/home"><img src="assets/portraits/lexi.jpg">Alexandra
+            <span><a target="_blank" href="https://sites.google.com/view/alexandra-birch/home"><img
+                        src="assets/portraits/lexi.jpg">Alexandra
                     Birch</a><br>University of Edinburgh</span>
             <span><a target="_blank" href="https://afaji.github.io/"><img src="assets/portraits/alham.jpg">Alham Fikri
                     Aji</a><br>MBZUAI</span>
             <span><a
                     href="https://www.cl.uzh.ch/en/research-groups/texttechnologies/Team/Current-Members/sennrich.html"><img
                         src="assets/portraits/rico.jpg">Rico Sennrich</a><br>University of Zurich</span>
-            <span><a target="_blank" href="https://www.sarahooker.me/"><img src="assets/portraits/sara.jpg">Sara Hooker</a><br>Adaptable
+            <span><a target="_blank" href="https://www.sarahooker.me/"><img src="assets/portraits/sara.jpg">Sara
+                    Hooker</a><br>Adaptable
                 Intelligence</span>
         </div>
 
         <br>
-        Please reach out to <a target="_blank" href="mailto:mme-workshop@googlegroups.com">mme-workshop@googlegroups.com</a> with any
+        Please reach out to <a target="_blank"
+            href="mailto:mme-workshop@googlegroups.com">mme-workshop@googlegroups.com</a> with any
         questions or inquiries.
 
         This workshop follows ACL's
-        <a target="_blank" href="https://www.aclweb.org/adminwiki/index.php?title=Anti-Harassment_Policy">Anti-Harassment Policy</a>.
+        <a target="_blank"
+            href="https://www.aclweb.org/adminwiki/index.php?title=Anti-Harassment_Policy">Anti-Harassment Policy</a>.
 
-        <h2>Programme Committee</h2>
-        <p>
-            <ul>
-                <li>A B M Ashikur Rahman (King Fahad University of Petroleum and Minerals)</li>
-                <li>Ahrii Kim (Soongsil University)</li>
-                <li>Aishwarya Jadhav (University of California, Berkeley)</li>
-                <li>Ashok Urlana (International Institute of Information Technology, Hyderabad)</li>
-                <li>Bhavitvya Malik (University of Edinburgh)</li>
-                <li>Dayyán O'Brien (University of Edinburgh)</li>
-                <li>Esther Ploeger (Aalborg University)</li>
-                <li>Houda Bouamor (Carnegie Mellon University, Qatar)</li>
-                <li>Jacqueline Rowe (University of Edinburgh)</li>
-                <li>Junxiao Liu (Nanjing University)</li>
-                <li>Koel Dutta Chowdhury (Saarland University)</li>
-                <li>Laurie Burchell (Common Crawl Foundation)</li>
-                <li>Lorenzo Proietti (Sapienza University of Rome)</li>
-                <li>Mateusz Klimaszewski (Warsaw University of Technology)</li>
-                <li>Nikita Kiran Yeole (Virginia Tech)</li>
-                <li>Nikita Moghe (Amazon)</li>
-                <li>Niyati Bafna (Johns Hopkins University)</li>
-                <li>Ona de Gibert (University of Helsinki)</li>
-                <li>Peter Devine (University of Edinburgh)</li>
-                <li>Pinzhen Chen (Queen's University Belfast)</li>
-                <li>Shehenaz Hossain (Munster Technological University)</li>
-                <li>Shenbin Qian (University of Oslo)</li>
-                <li>Sherrie Shen (University of Edinburgh)</li>
-                <li>Songbo Hu (University of Cambridge)</li>
-                <li>Stefano Perrella (Sapienza University of Rome)</li>
-                <li>Vilém Zouhar (ETH Zurich)</li>
-                <li>Xu Huang (Nanjing University)</li>
-                <li>Yogen Vilas Chaudhari (PowerSchool)</li>
-                <li>Zheng Zhao (University of Edinburgh)</li>
-                <li>Zhijun Wang (Nanjing University)</li>
-            </ul>
-        </p>
+        <h2>Program Committee</h2>
+        <ul>
+            <li>A B M Ashikur Rahman (King Fahad University of Petroleum and Minerals)</li>
+            <li>Ahrii Kim (Soongsil University)</li>
+            <li>Aishwarya Jadhav (University of California, Berkeley)</li>
+            <li>Ashok Urlana (International Institute of Information Technology, Hyderabad)</li>
+            <li>Bhavitvya Malik (University of Edinburgh)</li>
+            <li>Dayyán O'Brien (University of Edinburgh)</li>
+            <li>Esther Ploeger (Aalborg University)</li>
+            <li>Houda Bouamor (Carnegie Mellon University, Qatar)</li>
+            <li>Jacqueline Rowe (University of Edinburgh)</li>
+            <li>Junxiao Liu (Nanjing University)</li>
+            <li>Koel Dutta Chowdhury (Saarland University)</li>
+            <li>Laurie Burchell (Common Crawl Foundation)</li>
+            <li>Lorenzo Proietti (Sapienza University of Rome)</li>
+            <li>Mateusz Klimaszewski (Warsaw University of Technology)</li>
+            <li>Nikita Kiran Yeole (Virginia Tech)</li>
+            <li>Nikita Moghe (Amazon)</li>
+            <li>Niyati Bafna (Johns Hopkins University)</li>
+            <li>Ona de Gibert (University of Helsinki)</li>
+            <li>Peter Devine (University of Edinburgh)</li>
+            <li>Pinzhen Chen (Queen's University Belfast)</li>
+            <li>Shehenaz Hossain (Munster Technological University)</li>
+            <li>Shenbin Qian (University of Oslo)</li>
+            <li>Sherrie Shen (University of Edinburgh)</li>
+            <li>Songbo Hu (University of Cambridge)</li>
+            <li>Stefano Perrella (Sapienza University of Rome)</li>
+            <li>Vilém Zouhar (ETH Zurich)</li>
+            <li>Xu Huang (Nanjing University)</li>
+            <li>Yogen Vilas Chaudhari (PowerSchool)</li>
+            <li>Zheng Zhao (University of Edinburgh)</li>
+            <li>Zhijun Wang (Nanjing University)</li>
+        </ul>
     </div>
 </body>
 
