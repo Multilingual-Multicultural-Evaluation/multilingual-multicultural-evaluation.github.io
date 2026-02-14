@@ -56,7 +56,7 @@
             padding-right: 2px;
         }
 
-        #people {
+        #people, #speaker {
             text-align: center;
         }
 
@@ -68,7 +68,24 @@
             margin-bottom: 20px;
         }
 
+        #speaker span {
+            display: inline-block;
+            width: 320px;
+            text-align: center;
+            line-height: normal;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
         #people span img {
+            width: 150px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }        
+        
+        #speaker span img {
             width: 150px;
             display: block;
             margin-left: auto;
@@ -86,6 +103,17 @@
         .paper_authors {
             font-style: italic;
         }
+        /* collapsible details styling */
+        details.collapsible { margin-bottom: 10px; }
+        details.collapsible summary { list-style: none; cursor: pointer; }
+        details.collapsible summary::-webkit-details-marker { display: none; }
+        details.collapsible summary h2 { display: inline-block; margin: 0; }
+        details.collapsible .collapsible-body { padding-top: 10px; }
+        details.collapsible summary { display: flex; align-items: center; gap: 8px; }
+        details.collapsible .chev { display: inline-block; transition: transform .18s ease; margin-left: 6px; }
+        details.collapsible .hint { font-size: inherit; font-weight: normal; font-family: inherit; }
+        details.collapsible[open] .chev { transform: rotate(180deg); }
+        details.collapsible[open] .hint { display: none; }
     </style>
 </head>
 
@@ -124,65 +152,76 @@
         multilingual benchmarking.
         </p>
 
-        <h2>Call for Papers</h2>
-        <p>
-            We invite submissions on topics, including, but not limited to:
-        <ul>
-            <li>Evaluation <b>resources</b> beyond English or Western-centric perspectives and materials</li>
-            <li><b>Annotation</b> methodology and procedures</li>
-            <li>Evaluation <b>protocols</b>: ranking vs direct assessment, rubric-based vs reference-based vs
-                reference-free,
-                prompt variations, etc</li>
-            <li><b>Complex and practical</b> tasks: multimodality, fairness, long I/O, tool using, code-switching,
-                literary, etc</li>
-            <li><b>Sociocultural and cognitive</b> variation affecting the use and evaluation across languages</li>
-            <li><b>Scalable</b> evaluation of cultural and factual knowledge</li>
-            <li><b>Efficient</b> evaluation of a massive number of languages and tasks</li>
-            <li><b>Metrics</b>, LLM judges, and reward models</li>
-            <li><b>Standardization</b> in reporting and comparison of multilingual performance</li>
-            <li><b>AI-assisted</b> evaluation: data, methods, metrics, and standards</li>
-            <li>Other position, application, or theory contributions</li>
-        </ul>
-        </p>
-        <p>
-            We welcome both archival and non-archival papers, resulting in presentations at the workshop. In addition,
-            archival papers will be published in ACL Anthology. An archival submission cannot be under review or
-            accepted at another archival venue. ARR-reviewed papers can be directly committed.
-        </p>
-        <p>
-            All <b>archival</b> submissions must follow the <a target="_blank"
-                href="https://github.com/acl-org/acl-style-files">ACL style guidelines</a> and be anonymized for
-            double-blind review. Short papers may have up to 4 pages and long papers up to 8 pages, excluding references
-            and appendices. Upon acceptance, one additional page will be allowed for the camera-ready version.
-            <b>Non-archival</b> submissions have no formatting or anonymity requirements.
-        </p>
-        <p>
-            Please submit your work by <span class="highlight">December 19 2025</span> through <a target="_blank"
-                href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME">this link</a>. ARR
-            (meta-)reviewed papers can be committed by <span class="highlight">January 5 2026</span> using <a
-                target="_blank"
-                href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME_ARR_Commitment">this link</a>.
-        </p>
+        <details class="collapsible">
+            <summary>
+                <h2>Call for Papers<span class="chev">▾</span></h2><span class="hint">click to expand</span>
+            </summary>
+            <div class="collapsible-body">
+                <p>
+                    We invite submissions on topics, including, but not limited to:
+                <ul>
+                    <li>Evaluation <b>resources</b> beyond English or Western-centric perspectives and materials</li>
+                    <li><b>Annotation</b> methodology and procedures</li>
+                    <li>Evaluation <b>protocols</b>: ranking vs direct assessment, rubric-based vs reference-based vs
+                        reference-free,
+                        prompt variations, etc</li>
+                    <li><b>Complex and practical</b> tasks: multimodality, fairness, long I/O, tool using, code-switching,
+                        literary, etc</li>
+                    <li><b>Sociocultural and cognitive</b> variation affecting the use and evaluation across languages</li>
+                    <li><b>Scalable</b> evaluation of cultural and factual knowledge</li>
+                    <li><b>Efficient</b> evaluation of a massive number of languages and tasks</li>
+                    <li><b>Metrics</b>, LLM judges, and reward models</li>
+                    <li><b>Standardization</b> in reporting and comparison of multilingual performance</li>
+                    <li><b>AI-assisted</b> evaluation: data, methods, metrics, and standards</li>
+                    <li>Other position, application, or theory contributions</li>
+                </ul>
+                </p>
+                <p>
+                    We welcome both archival and non-archival papers, resulting in presentations at the workshop. In addition,
+                    archival papers will be published in ACL Anthology. An archival submission cannot be under review or
+                    accepted at another archival venue. ARR-reviewed papers can be directly committed.
+                </p>
+                <p>
+                    All <b>archival</b> submissions must follow the <a target="_blank"
+                        href="https://github.com/acl-org/acl-style-files">ACL style guidelines</a> and be anonymized for
+                    double-blind review. Short papers may have up to 4 pages and long papers up to 8 pages, excluding references
+                    and appendices. Upon acceptance, one additional page will be allowed for the camera-ready version.
+                    <b>Non-archival</b> submissions have no formatting or anonymity requirements.
+                </p>
+                <p>
+                    Please submit your work by <span class="highlight">December 19 2025</span> through <a target="_blank"
+                        href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME">this link</a>. ARR
+                    (meta-)reviewed papers can be committed by <span class="highlight">January 5 2026</span> using <a
+                        target="_blank"
+                        href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME_ARR_Commitment">this link</a>.
+                </p>
+            </div>
+        </details>
 
-        <h2>Key Dates</h2>
-        <p>
-            All deadlines are 11:59PM UTC-12:00 ("Anywhere on Earth").
-        <ul>
-            <li>Direct submission deadline: December 19 2025, <a
-                    href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME">direct submission link</a>
-            </li>
-            <li>ARR-reviewed paper submission deadline: January 5 2026, <a target="_blank"
-                    href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME_ARR_Commitment">commitment
-                    link</a></li>
-            <li>Notification of acceptance: January 23 2026</li>
-            <li>Camera-ready deadline: February 3 2026</li>
-            <li>Workshop time: 14:00-17:30 March 28 2026</li>
-        </ul>
-        </p>
+        <details class="collapsible">
+            <summary>
+                <h2>Key Dates <span class="chev">▾</span></h2><span class="hint">click to expand</span>
+            </summary>
+            <div class="collapsible-body">
+                <p>
+                    All deadlines are 11:59PM UTC-12:00 ("Anywhere on Earth").
+                <ul>
+                    <li>Direct submission deadline: December 19 2025, <a
+                            href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME">direct submission link</a>
+                    </li>
+                    <li>ARR-reviewed paper submission deadline: January 5 2026, <a target="_blank"
+                            href="https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/MME_ARR_Commitment">commitment
+                            link</a></li>
+                    <li>Notification of acceptance: January 23 2026</li>
+                    <li>Camera-ready deadline: February 3 2026</li>
+                </ul>
+                </p>
+            </div>
+        </details>
 
         <h2>Speakers</h2>
         <br>
-        <div id="people">
+        <div id="speaker">
             <span>
                 <em>From Preferences to Proficiency: Evaluating Native-like Quality of LLMs</em>
                 <br><br>
